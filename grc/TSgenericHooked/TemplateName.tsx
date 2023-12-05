@@ -22,7 +22,7 @@ const TemplateName: React.FC<ITemplateNameProps> = (props) => {
     };
   }, []);
   return (
-    <div className={styles.TemplateName} data-testid="TemplateName" style={...props.style}>
+    <div className={styles.TemplateName} data-testid="TemplateName" style={{...props.style}}>
       TemplateName Component
     </div>
   );
