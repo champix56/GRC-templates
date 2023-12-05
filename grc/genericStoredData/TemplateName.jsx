@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styles from "./TemplateName.module.css";
+import { useSelector, useDispatch } from "react-redux";
 
 const TemplateName = (props) => (
   <div className={styles.TemplateName} data-testid="TemplateName">

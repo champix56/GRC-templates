@@ -1,9 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
-
+import styles from './TemplateName.module.css'
 /**
  * TemplateName component
- * @param {{}} props 
+ * @param props 
  * @returns React.Element
  */
 const TemplateName = (props) => {
