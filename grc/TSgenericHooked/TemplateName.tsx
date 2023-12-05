@@ -2,7 +2,9 @@ import React, { useState, useEffect } from "react";
 import styles from "./TemplateName.module.css";
 import PropTypes from 'prop-types'
 
-interface ITemplateNameProps { }
+interface ITemplateNameProps { 
+  style?: object
+}
 interface ITemplateNameState { }
 
 const initialState: ITemplateNameState = {};

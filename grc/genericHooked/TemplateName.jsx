@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import styles from './TemplateName.module.css'
 /**
  * TemplateName component
- * @param props 
+ * @param {{}} props 
  * @returns React.Element
  */
 const TemplateName = (props) => {
@@ -15,5 +15,5 @@ const TemplateName = (props) => {
 };
 
 TemplateName.propTypes = {};
-TemplateName.defaultValues = {};
+TemplateName.defaultProps = {};
 export default TemplateName;

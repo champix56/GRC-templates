@@ -3,13 +3,13 @@ import styles from './TemplateName.module.css';
 import PropTypes from 'prop-types'
 
 interface TemplateNameProps {
-  children: React.Element | Array<React.Node | string>
+  children: React.ReactElement | Array<React.ReactNode | string>
   style?: object
 }
 
 /**
  * TemplateName component
- * @param {{}} props 
+ * @param props 
  * @returns React.Element
  */
 const TemplateName: FC<TemplateNameProps> = (props) => (
@@ -17,9 +17,9 @@ const TemplateName: FC<TemplateNameProps> = (props) => (
     {props.children}
   </div>
 );
-TemplateName.propType = {
+TemplateName.propTypes = {
   children: PropTypes.any.isRequired,
   style: PropTypes.object
 }
-TemplateName.defaultValues = {}
+TemplateName.defaultProps = {}
 export default TemplateName;
